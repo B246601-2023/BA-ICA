@@ -1,0 +1,38 @@
+########################################
+# Program: water
+# Rundate: Sat 16 Mar 2024 15:09:36
+# Commandline: water
+#    -asequence seq9.fasta
+#    -bsequence seq10.fasta
+#    -datafile EDNAFULL_srt
+#    -gapopen 1
+#    -gapextend 1
+# Align_format: srspair
+# Report_file: seq9.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: seq9
+# 2: seq10
+# Matrix: EDNAFULL_srt
+# Gap_penalty: 1.0
+# Extend_penalty: 1.0
+#
+# Length: 5
+# Identity:       5/5 (100.0%)
+# Similarity:     5/5 (100.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 5.0
+# 
+#
+#=======================================
+
+seq9               1 TCGTT      5
+                     |||||
+seq10              1 TCGTT      5
+
+
+#---------------------------------------
+#---------------------------------------
